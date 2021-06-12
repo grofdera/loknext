@@ -140,11 +140,12 @@ add_action( 'widgets_init', 'loknext_widgets_init' );
  * Enqueue scripts and styles.
  */
 function loknext_scripts() {
+	$theme = wp_get_theme();
 	wp_enqueue_style( 'loknext-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'loknext-style', 'rtl', 'replace' );
-
+	wp_enqueue_style('tailwind-css', tailpress_get_mix_compiled_asset_url('css/app.css'), array(), $theme->get('Version'));
+	wp_enqueue_style('aosv3beta-animate', tailpress_get_mix_compiled_asset_url('css/animate.min.css'), array(), _S_VERSION, true );
 	wp_enqueue_script( 'loknext-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-
+	wp_enqueue_script('aosv3beta-animation', get_template_directory_uri() . '/js/animate.js', array(), _S_VERSION, true);
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
