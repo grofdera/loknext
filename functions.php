@@ -143,7 +143,7 @@ function loknext_scripts() {
 	$theme = wp_get_theme();
 	wp_enqueue_style( 'loknext-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style('tailwind-css', tailpress_get_mix_compiled_asset_url('css/app.css'), array(), $theme->get('Version'));
-	wp_enqueue_style('aosv3beta-animate', tailpress_get_mix_compiled_asset_url('css/animate.min.css'), array(), _S_VERSION, true );
+	wp_enqueue_style('aosv3beta-css', get_template_directory_uri() . '/css/animate.min.css', array(), _S_VERSION, true );
 	wp_enqueue_script( 'loknext-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script('aosv3beta-animation', get_template_directory_uri() . '/js/animate.js', array(), _S_VERSION, true);
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -179,3 +179,36 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**Manish codes from here */
+/** remove wp-block-css */
+function smartwp_remove_wp_block_library_css()
+{
+	wp_dequeue_style('wp-block-library');
+	wp_dequeue_style('wp-block-library-theme');
+	wp_dequeue_style('wc-block-style'); // Remove WooCommerce block CSS
+}
+add_action('wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 9999);
+
+/**
+ * Get mix compiled asset.
+ *
+ * @param string $path The path to the asset.
+ *
+ * @return string
+ */
+function tailpress_get_mix_compiled_asset_url($path)
+{
+	$path                = '/' . $path;
+	$stylesheet_dir_uri  = get_stylesheet_directory_uri();
+	$stylesheet_dir_path = get_stylesheet_directory();
+
+	if (!file_exists($stylesheet_dir_path . '/mix-manifest.json')) {
+		return $stylesheet_dir_uri . $path;
+	}
+
+	$mix_file_path = file_get_contents($stylesheet_dir_path . '/mix-manifest.json');
+	$manifest      = json_decode($mix_file_path, true);
+	$asset_path    = !empty($manifest[$path]) ? $manifest[$path] : $path;
+
+	return $stylesheet_dir_uri . $asset_path;
+}
