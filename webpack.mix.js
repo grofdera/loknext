@@ -6,6 +6,7 @@ mix.setPublicPath(path.resolve('./'));
 mix.postCss('./resources/css/style.css', './css/app.css',
     tailwindcss('./tailwind.config.js')
 );
+mix.js('resources/js/app.js', './js/animate.js');
 mix.options({
     postCss: [
         require('postcss-nested-ancestors'),

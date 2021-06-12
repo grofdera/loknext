@@ -143,7 +143,7 @@ function loknext_scripts() {
 	$theme = wp_get_theme();
 	wp_enqueue_style( 'lokbidhi', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style('app', tailpress_get_mix_compiled_asset_url('css/app.css'), array(), $theme->get('Version'));
-	wp_enqueue_style('animate', get_template_directory_uri() . '/css/animate.min.css', array(), _S_VERSION, true );
+	//wp_enqueue_style('animate', get_template_directory_uri() . '/css/aos.css', array(), _S_VERSION, true );
 	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script('appjs', get_template_directory_uri() . '/js/app.js', array(), _S_VERSION, true);
 	wp_enqueue_script('animation', get_template_directory_uri() . '/js/animate.js', array(), _S_VERSION, true);
