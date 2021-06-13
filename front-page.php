@@ -20,10 +20,10 @@ get_header();
     <div class="flex flex-col items-start max-w-screen-xl px-8 mx-auto lg:flex-row">
         <!--Left Col-->
         <div class="flex flex-col items-start justify-center w-full mb-5 text-center lg:w-6/12 lg:pt-24 lg:text-left md:mb-0">
-            <h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-darken">
-                <span class="text-yellow-500">Studying</span> Online is now much easier
+            <h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-indigo-500 text-darken">
+                Data-driven <span class="inline-block text-yellow-500 xl:flex-wrap">Business Technology</span> Solutions
             </h1>
-            <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="mb-8 text-2xl leading-normal">Skilline is an interesting platform that will teach you in more an interactive way</p>
+            <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="mb-8 text-5xl leading-normal">for your <span class="inline-block md:flex-1">Online Pasal !</span></p>
             <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="items-center justify-center w-full md:flex lg:justify-start md:space-x-5">
                 <button class="py-4 text-xl font-bold text-white transition duration-300 ease-in-out transform bg-yellow-500 rounded-full lg:mx-0 px-9 focus:outline-none hover:scale-110">
                     Join for free
@@ -39,10 +39,10 @@ get_header();
             </div>
         </div>
         <!--Right Col-->
-        <div class="relative w-full lg:w-6/12 lg:mt-16" id="girl">
-            <img data-aos="fade-up" data-aos-once="true" class="w-10/12 mx-auto 2xl:-mb-20" src="img/front.png" />
+        <div class="relative w-full lg:w-6/12 lg:bottom-12" id="girl">
+            <img data-aos="fade-up" data-aos-once="true" class="w-10/12 mx-auto 2xl:-mb-20" src="img/main.png" />
             <!-- calendar -->
-            <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" class="absolute top-20 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-0 lg:top-52 floating-4">
+            <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" class="absolute top-32 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-0 lg:top-52 floating-4">
                 <img class="h-12 bg-white rounded-lg bg-opacity-80 sm:h-16" src="img/calendar.svg">
             </div>
             <!-- red -->
@@ -69,8 +69,12 @@ get_header();
                 </svg>
             </div>
             <!-- ux class -->
-            <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="absolute bottom-14 -left-4 sm:left-2 sm:bottom-20 lg:bottom-24 lg:-left-4 floating">
-                <img class="h-20 bg-white rounded-lg bg-opacity-80 sm:h-28" src="img/ux-class.svg" alt="">
+            <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="absolute top-2 -left-4 sm:left-2 sm:top-2 lg:top-12 lg:-left-4 floating">
+                <img class="h-20 bg-white rounded-lg bg-opacity-20 sm:h-28" src="img/chart-output.png" alt="">
+            </div>
+            <!-- ux class -->
+            <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="absolute bottom-14 -left-4 sm:left-2 sm:bottom-20 lg:bottom-12 lg:-left-4 floating">
+                <img class="h-20 p-2 bg-white rounded-lg bg-opacity-20 sm:h-28" src="img/data-input.png" alt="">
             </div>
             <!-- congrats -->
             <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true" class="absolute bottom-20 md:bottom-48 lg:bottom-52 -right-6 lg:right-8 floating-4">
@@ -78,7 +82,7 @@ get_header();
             </div>
         </div>
     </div>
-    
+
 </div>
 
 <!-- container -->
