@@ -181,6 +181,14 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 /**Manish codes from here */
+/** search form to nav menu */
+add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);
+function add_search_form($items, $args)
+{
+	if ($args->theme_location == 'menu-1')
+		$items .= '<li class="search"><form role="search" method="get" id="searchform" action="' . home_url('/') . '"><div class="flex"><input type="text" placeholder="Search" value="" name="s" id="s" class="w-8/12 px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none search-field focus:outline-none focus:shadow-outline" /><input type="submit" class="flex px-4 py-2 ml-auto text-white bg-gray-500 border-0 rounded focus:outline-none hover:bg-gray-600" id="searchsubmit" value="' . esc_attr__('Search') . '" /></div></form></li>';
+	return $items;
+}
 /** remove wp-block-css */
 function smartwp_remove_wp_block_library_css()
 {

@@ -21,9 +21,9 @@ get_header();
         <!--Left Col-->
         <div class="flex flex-col items-start justify-center w-full mb-5 text-center lg:w-6/12 lg:pt-24 lg:text-left md:mb-0">
             <h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-indigo-500 text-darken">
-                Data-driven <span class="text-yellow-500">Business Technology</span> Solution
+                Data-driven <span class="text-yellow-500">Business Technology</span> Solutions
             </h1>
-            <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="mx-auto mb-8 text-5xl leading-normal lg:mx-0">for Online Store/Pasal</p>
+            <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="mb-8 text-5xl leading-normal">for your Online Store !</p>
             <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="items-center justify-center w-full md:flex lg:justify-start md:space-x-5">
                 <button class="py-4 text-xl font-bold text-white transition duration-300 ease-in-out transform bg-yellow-500 rounded-full lg:mx-0 px-9 focus:outline-none hover:scale-110">
                     Request Demo
@@ -89,146 +89,113 @@ get_header();
 <div class="container max-w-screen-xl px-4 mx-auto overflow-x-hidden text-gray-700 bg-gray-100 lg:px-8">
     <!-- All-In-One Cloud Software. -->
     <div data-aos="flip-up" class="max-w-xl mx-auto mt-24 text-center">
-        <h1 class="my-3 text-2xl font-bold text-darken">Our Most used <span class="text-yellow-500">DevOps Tech Stack.</span></h1>
+        <h1 class="my-3 text-2xl font-bold text-darken">Lokbidhi <span class="text-yellow-500">DevOps Tech Stack.</span></h1>
         <p class="leading-relaxed text-gray-500">Lokbidhi uses Technology to make WebApp and Data Analytics Software</p>
     </div>
 
-    <!-- tech stack -->
-    <div class="mx-auto max-w-7xl">
-        <div class="grid grid-cols-3 gap-6 mt-12 md:grid-cols-6 lg:grid-cols-12">
+    <!-- trusted by -->
+    <div class="max-w-4xl mx-auto">
+        <div class="grid grid-cols-9 gap-6 mt-12">
             <div data-aos="fade-up" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/figma.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="/img/chip.svg" alt="language-icon">
                 </div>
-                <p class="mt-3 mb-10 text-xs font-bold">Figma</p>
+                <p class="mt-3 mb-10 text-xs font-bold">Laravel</p>
             </div>
-            <div data-aos="fade-up" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="50" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/wordpress.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="/img/chip.svg" alt="language-icon">
                 </div>
-                <p class="mt-3 mb-10 text-xs font-bold">Wordpress</p>
-            </div>
-            <div data-aos="fade-up" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
-                <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/magento.svg" alt="language-icon">
-                </div>
-                <p class="mt-3 mb-10 text-xs font-bold">Magento</p>
+                <p class="mt-3 mb-10 text-xs font-bold">Laravel</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="100" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/laravel.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="/img/chip.svg" alt="language-icon">
                 </div>
-                <p class="mt-3 mb-10 text-xs font-bold">Laravel VueJs</p>
-            </div>
-            <div data-aos="fade-up" data-aos-delay="100" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
-                <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/react.svg" alt="language-icon">
-                </div>
-                <p class="mt-3 mb-10 text-xs font-bold">React/ Native</p>
-            </div>
-            <div data-aos="fade-up" data-aos-delay="100" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
-                <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/flutter.svg" alt="language-icon">
-                </div>
-                <p class="mt-3 mb-10 text-xs font-bold">Flutter</p>
+                <p class="mt-3 mb-10 text-xs font-bold">Laravel</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="150" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12 rounded-lg" src="/img/stack/facebook.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="/img/chip.svg" alt="language-icon">
                 </div>
-                <p class="mt-3 mb-10 text-xs font-bold">SEO, fbBoost</p>
-            </div>
-            <div data-aos="fade-up" data-aos-delay="150" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
-                <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/docker.svg" alt="language-icon">
-                </div>
-                <p class="mt-3 mb-10 text-xs font-bold">Docker</p>
-            </div>
-            <div data-aos="fade-up" data-aos-delay="150" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
-                <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12 bg-auto" src="/img/stack/excel.png" alt="language-icon">
-                </div>
-                <p class="mt-3 mb-10 text-xs font-bold">MS Excel</p>
+                <p class="mt-3 mb-10 text-xs font-bold">Laravel</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/anaconda.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="/img/chip.svg" alt="language-icon">
                 </div>
-                <p class="mt-3 mb-10 text-xs font-bold">Anaconda</p>
+                <p class="mt-3 mb-10 text-xs font-bold">Laravel</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="250" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/r.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="/img/chip.svg" alt="language-icon">
                 </div>
-                <p class="mt-3 mb-10 text-xs font-bold">SAS, R</p>
+                <p class="mt-3 mb-10 text-xs font-bold">Laravel</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="300" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/superset.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="/img/chip.svg" alt="language-icon">
                 </div>
-                <p class="mt-3 mb-10 text-xs font-bold">Apache Superset</p>
+                <p class="mt-3 mb-10 text-xs font-bold">Laravel</p>
             </div>
+            <div data-aos="fade-up" data-aos-delay="350" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+                <div class="p-2 bg-white border rounded-full">
+                    <img class="w-12 h-12" src="/img/chip.svg" alt="language-icon">
+                </div>
+                <p class="mt-3 mb-10 text-xs font-bold">Laravel</p>
+            </div>
+            <button data-aos="fade-up" data-aos-delay="400" class="flex items-center self-center justify-center h-10 p-3 ml-auto bg-gray-100 rounded-lg hover:shadow-xl">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </button>
         </div>
     </div>
     <!-- All-In-One Cloud Software. -->
     <div data-aos="flip-up" class="max-w-xl mx-auto mt-24 text-center">
-        <h1 class="my-3 text-2xl font-bold text-darken">Experience our <span class="text-yellow-500">General Services.</span></h1>
+        <h1 class="my-3 text-2xl font-bold text-darken">Experience our <span class="text-yellow-500">Core Services.</span></h1>
         <p class="leading-relaxed text-gray-500">Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.</p>
     </div>
     <!-- card -->
     <div class="grid mt-20 md:grid-cols-3 gap-14 md:gap-5">
         <div data-aos="fade-up" class="p-6 text-center bg-white shadow-xl rounded-xl">
             <div style="background: #5B72EE;" class="flex items-center justify-center w-16 h-16 mx-auto transform -translate-y-12 rounded-full shadow-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                <svg class="w-6 h-6 text-white" viewBox="0 0 33 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.75 23H8.25V28.75H24.75V23ZM32.3984 9.43359L23.9852 0.628906C23.5984 0.224609 23.0742 0 22.5242 0H22V11.5H33V10.952C33 10.3859 32.7852 9.83789 32.3984 9.43359ZM19.25 12.2188V0H2.0625C0.919531 0 0 0.961328 0 2.15625V43.8438C0 45.0387 0.919531 46 2.0625 46H30.9375C32.0805 46 33 45.0387 33 43.8438V14.375H21.3125C20.1781 14.375 19.25 13.4047 19.25 12.2188ZM5.5 6.46875C5.5 6.07164 5.80766 5.75 6.1875 5.75H13.0625C13.4423 5.75 13.75 6.07164 13.75 6.46875V7.90625C13.75 8.30336 13.4423 8.625 13.0625 8.625H6.1875C5.80766 8.625 5.5 8.30336 5.5 7.90625V6.46875ZM5.5 12.2188C5.5 11.8216 5.80766 11.5 6.1875 11.5H13.0625C13.4423 11.5 13.75 11.8216 13.75 12.2188V13.6562C13.75 14.0534 13.4423 14.375 13.0625 14.375H6.1875C5.80766 14.375 5.5 14.0534 5.5 13.6562V12.2188ZM27.5 39.5312C27.5 39.9284 27.1923 40.25 26.8125 40.25H19.9375C19.5577 40.25 19.25 39.9284 19.25 39.5312V38.0938C19.25 37.6966 19.5577 37.375 19.9375 37.375H26.8125C27.1923 37.375 27.5 37.6966 27.5 38.0938V39.5312ZM27.5 21.5625V30.1875C27.5 30.9817 26.8847 31.625 26.125 31.625H6.875C6.11531 31.625 5.5 30.9817 5.5 30.1875V21.5625C5.5 20.7683 6.11531 20.125 6.875 20.125H26.125C26.8847 20.125 27.5 20.7683 27.5 21.5625Z" fill="white" />
                 </svg>
             </div>
             <h1 class="mb-3 text-xl font-medium lg:px-14 text-darken">WebApp Development</h1>
             <p class="px-4 text-gray-500">Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
-            <button class="flex items-center pl-3 mx-auto my-4 space-x-3 font-medium text-yellow-500 transition duration-300 ease-in-out transform border-t border-b border-l border-yellow-500 rounded-full focus:outline-none hover:scale-110">
-                <span>Make your WebApp</span>
-                <div class="flex items-center justify-center border border-yellow-500 rounded-full h-14 w-14">
-                    <svg class="w-5 h-5" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M25.7071 8.70711C26.0976 8.31658 26.0976 7.68342 25.7071 7.2929L19.3431 0.928934C18.9526 0.538409 18.3195 0.538409 17.9289 0.928934C17.5384 1.31946 17.5384 1.95262 17.9289 2.34315L23.5858 8L17.9289 13.6569C17.5384 14.0474 17.5384 14.6805 17.9289 15.0711C18.3195 15.4616 18.9526 15.4616 19.3431 15.0711L25.7071 8.70711ZM-8.74228e-08 9L25 9L25 7L8.74228e-08 7L-8.74228e-08 9Z" fill="#F48C06"></path>
-                    </svg>
-                </div>
-            </button>
         </div>
         <div data-aos="fade-up" data-aos-delay="150" class="p-6 text-center bg-white shadow-xl rounded-xl">
             <div style="background: #F48C06;" class="flex items-center justify-center w-16 h-16 mx-auto transform -translate-y-12 rounded-full shadow-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+                <svg class="w-6 h-6 text-white" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0C11.0532 0 10.2857 0.767511 10.2857 1.71432V5.14285H13.7142V1.71432C13.7142 0.767511 12.9467 0 12 0Z" fill="#F5F5FC" />
+                    <path d="M36 0C35.0532 0 34.2856 0.767511 34.2856 1.71432V5.14285H37.7142V1.71432C37.7143 0.767511 36.9468 0 36 0Z" fill="#F5F5FC" />
+                    <path d="M42.8571 5.14282H37.7143V12C37.7143 12.9468 36.9468 13.7143 36 13.7143C35.0532 13.7143 34.2857 12.9468 34.2857 12V5.14282H13.7142V12C13.7142 12.9468 12.9467 13.7143 11.9999 13.7143C11.0531 13.7143 10.2856 12.9468 10.2856 12V5.14282H5.14285C2.30253 5.14282 0 7.44535 0 10.2857V42.8571C0 45.6974 2.30253 48 5.14285 48H42.8571C45.6975 48 48 45.6974 48 42.8571V10.2857C48 7.44535 45.6975 5.14282 42.8571 5.14282ZM44.5714 42.8571C44.5714 43.8039 43.8039 44.5714 42.857 44.5714H5.14285C4.19605 44.5714 3.42854 43.8039 3.42854 42.8571V20.5714H44.5714V42.8571Z" fill="#F5F5FC" />
+                    <path d="M13.7142 23.9999H10.2857C9.33889 23.9999 8.57138 24.7674 8.57138 25.7142C8.57138 26.661 9.33889 27.4285 10.2857 27.4285H13.7142C14.661 27.4285 15.4285 26.661 15.4285 25.7142C15.4285 24.7674 14.661 23.9999 13.7142 23.9999Z" fill="#F5F5FC" />
+                    <path d="M25.7143 23.9999H22.2857C21.3389 23.9999 20.5714 24.7674 20.5714 25.7142C20.5714 26.661 21.3389 27.4285 22.2857 27.4285H25.7143C26.6611 27.4285 27.4286 26.661 27.4286 25.7142C27.4286 24.7674 26.6611 23.9999 25.7143 23.9999Z" fill="#F5F5FC" />
+                    <path d="M37.7143 23.9999H34.2857C33.3389 23.9999 32.5714 24.7674 32.5714 25.7142C32.5714 26.661 33.3389 27.4285 34.2857 27.4285H37.7143C38.6611 27.4285 39.4286 26.661 39.4286 25.7142C39.4286 24.7674 38.661 23.9999 37.7143 23.9999Z" fill="#F5F5FC" />
+                    <path d="M13.7142 30.8571H10.2857C9.33889 30.8571 8.57138 31.6246 8.57138 32.5714C8.57138 33.5182 9.33889 34.2857 10.2857 34.2857H13.7142C14.661 34.2857 15.4285 33.5182 15.4285 32.5714C15.4285 31.6246 14.661 30.8571 13.7142 30.8571Z" fill="#F5F5FC" />
+                    <path d="M25.7143 30.8571H22.2857C21.3389 30.8571 20.5714 31.6246 20.5714 32.5714C20.5714 33.5182 21.3389 34.2857 22.2857 34.2857H25.7143C26.6611 34.2857 27.4286 33.5182 27.4286 32.5714C27.4286 31.6246 26.6611 30.8571 25.7143 30.8571Z" fill="#F5F5FC" />
+                    <path d="M37.7143 30.8571H34.2857C33.3389 30.8571 32.5714 31.6246 32.5714 32.5714C32.5714 33.5182 33.3389 34.2857 34.2857 34.2857H37.7143C38.6611 34.2857 39.4286 33.5182 39.4286 32.5714C39.4285 31.6246 38.661 30.8571 37.7143 30.8571Z" fill="#F5F5FC" />
+                    <path d="M13.7142 37.7142H10.2857C9.33889 37.7142 8.57138 38.4817 8.57138 39.4286C8.57138 40.3754 9.33889 41.1428 10.2857 41.1428H13.7142C14.661 41.1428 15.4285 40.3753 15.4285 39.4284C15.4285 38.4816 14.661 37.7142 13.7142 37.7142Z" fill="#F5F5FC" />
+                    <path d="M25.7143 37.7142H22.2857C21.3389 37.7142 20.5714 38.4817 20.5714 39.4285C20.5714 40.3754 21.3389 41.1429 22.2857 41.1429H25.7143C26.6611 41.1429 27.4286 40.3754 27.4286 39.4285C27.4286 38.4817 26.6611 37.7142 25.7143 37.7142Z" fill="#F5F5FC" />
+                    <path d="M37.7143 37.7142H34.2857C33.3389 37.7142 32.5714 38.4817 32.5714 39.4285C32.5714 40.3754 33.3389 41.1429 34.2857 41.1429H37.7143C38.6611 41.1429 39.4286 40.3754 39.4286 39.4285C39.4286 38.4817 38.661 37.7142 37.7143 37.7142Z" fill="#F5F5FC" />
                 </svg>
             </div>
             <h1 class="mb-3 text-xl font-medium lg:px-14 text-darken">Software Consulting</h1>
             <p class="px-4 text-gray-500">Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance</p>
-            <button class="flex items-center pl-3 mx-auto my-4 space-x-3 font-medium text-yellow-500 transition duration-300 ease-in-out transform border-t border-b border-l border-yellow-500 rounded-full focus:outline-none hover:scale-110">
-                <span>Get Expert Help</span>
-                <div class="flex items-center justify-center border border-yellow-500 rounded-full h-14 w-14">
-                    <svg class="w-5 h-5" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M25.7071 8.70711C26.0976 8.31658 26.0976 7.68342 25.7071 7.2929L19.3431 0.928934C18.9526 0.538409 18.3195 0.538409 17.9289 0.928934C17.5384 1.31946 17.5384 1.95262 17.9289 2.34315L23.5858 8L17.9289 13.6569C17.5384 14.0474 17.5384 14.6805 17.9289 15.0711C18.3195 15.4616 18.9526 15.4616 19.3431 15.0711L25.7071 8.70711ZM-8.74228e-08 9L25 9L25 7L8.74228e-08 7L-8.74228e-08 9Z" fill="#F48C06"></path>
-                    </svg>
-                </div>
-            </button>
         </div>
         <div data-aos="fade-up" data-aos-delay="300" class="p-6 text-center bg-white shadow-xl rounded-xl">
             <div style="background: #29B9E7;" class="flex items-center justify-center w-16 h-16 mx-auto transform -translate-y-12 rounded-full shadow-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                <svg class="w-6 h-6 text-white" viewBox="0 0 55 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.25 19.25C11.2836 19.25 13.75 16.7836 13.75 13.75C13.75 10.7164 11.2836 8.25 8.25 8.25C5.21641 8.25 2.75 10.7164 2.75 13.75C2.75 16.7836 5.21641 19.25 8.25 19.25ZM46.75 19.25C49.7836 19.25 52.25 16.7836 52.25 13.75C52.25 10.7164 49.7836 8.25 46.75 8.25C43.7164 8.25 41.25 10.7164 41.25 13.75C41.25 16.7836 43.7164 19.25 46.75 19.25ZM49.5 22H44C42.4875 22 41.1211 22.6102 40.1242 23.5984C43.5875 25.4977 46.0453 28.9266 46.5781 33H52.25C53.7711 33 55 31.7711 55 30.25V27.5C55 24.4664 52.5336 22 49.5 22ZM27.5 22C32.8195 22 37.125 17.6945 37.125 12.375C37.125 7.05547 32.8195 2.75 27.5 2.75C22.1805 2.75 17.875 7.05547 17.875 12.375C17.875 17.6945 22.1805 22 27.5 22ZM34.1 24.75H33.3867C31.5992 25.6094 29.6141 26.125 27.5 26.125C25.3859 26.125 23.4094 25.6094 21.6133 24.75H20.9C15.4344 24.75 11 29.1844 11 34.65V37.125C11 39.4023 12.8477 41.25 15.125 41.25H39.875C42.1523 41.25 44 39.4023 44 37.125V34.65C44 29.1844 39.5656 24.75 34.1 24.75ZM14.8758 23.5984C13.8789 22.6102 12.5125 22 11 22H5.5C2.46641 22 0 24.4664 0 27.5V30.25C0 31.7711 1.22891 33 2.75 33H8.41328C8.95469 28.9266 11.4125 25.4977 14.8758 23.5984Z" fill="white" />
                 </svg>
             </div>
             <h1 class="pt-3 mb-3 text-xl font-medium lg:px-14 text-darken lg:h-14">Computer Training</h1>
             <p class="px-4 text-gray-500">Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization </p>
-            <button class="flex items-center pl-3 mx-auto my-4 space-x-3 font-medium text-yellow-500 transition duration-300 ease-in-out transform border-t border-b border-l border-yellow-500 rounded-full focus:outline-none hover:scale-110">
-                <span>Start Learning</span>
-                <div class="flex items-center justify-center border border-yellow-500 rounded-full h-14 w-14">
-                    <svg class="w-5 h-5" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M25.7071 8.70711C26.0976 8.31658 26.0976 7.68342 25.7071 7.2929L19.3431 0.928934C18.9526 0.538409 18.3195 0.538409 17.9289 0.928934C17.5384 1.31946 17.5384 1.95262 17.9289 2.34315L23.5858 8L17.9289 13.6569C17.5384 14.0474 17.5384 14.6805 17.9289 15.0711C18.3195 15.4616 18.9526 15.4616 19.3431 15.0711L25.7071 8.70711ZM-8.74228e-08 9L25 9L25 7L8.74228e-08 7L-8.74228e-08 9Z" fill="#F48C06"></path>
-                    </svg>
-                </div>
-            </button>
         </div>
     </div>
 
@@ -240,7 +207,7 @@ get_header();
         </div>
         <div data-aos="fade-up" class="flex flex-col justify-center space-y-5 md:flex-row md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
             <!-- services -->
-            <div class="flex flex-row -mx-2 lg:flex-col">
+            <div class="flex -mx-2">
                 <div data-aos="fade-up" class="w-full px-2 md:w-1/4">
                     <div class="px-6 py-8 bg-white rounded hover:bg-purple-lightest hover:shadow-lg">
                         <img src="https://dd7tel2830j4w.cloudfront.net/f1517340521892x235520337941125020/martketplace%20icon.svg">
@@ -381,7 +348,7 @@ get_header();
     <!-- Hire an eBusiness Technician -->
     <div class="flex flex-col items-start mt-24 md:flex-row md:space-x-10">
         <div data-aos="zoom-in-right" class="md:w-6/12">
-            <img class="mx-auto md:w-8/12" src="img/experts.svg">
+            <img class="mx-auto md:w-8/12" src="img/integrations.png">
         </div>
         <div data-aos="zoom-in-left" class="md:w-6/12">
             <div class="flex items-center mb-5 space-x-20">
@@ -415,7 +382,7 @@ get_header();
             </button>
         </div>
         <div data-aos="zoom-in-left" class="md:w-7/12">
-            <img class="mx-auto md:w-10/12" src="img/product-tour.svg">
+            <img class="mx-auto md:w-10/12" src="img/testimonials.png">
         </div>
     </div>
 
@@ -432,6 +399,58 @@ get_header();
         </div>
     </div>
 
+    <!-- Latest News and Resources -->
+    <div data-aos="zoom-in" class="mt-16 text-center">
+        <h1 class="text-2xl font-semibold text-darken">Latest News and Resources</h1>
+        <p class="my-5 text-gray-500">See the developments that have occurred to Skillines in the world</p>
+    </div>
+    <div data-aos="zoom-in-up" class="flex flex-col my-14 lg:flex-row lg:space-x-20">
+        <div class="lg:w-6/12">
+            <img class="w-full mb-6" src="img/laptop-news.png">
+            <span class="px-4 py-px text-sm font-semibold bg-yellow-300 rounded-full text-darken">NEWS</span>
+            <h1 class="my-3 text-xl font-semibold text-gray-800">Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</h1>
+            <p class="mb-3 text-gray-500">Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
+            <a href="" class="underline">Read more</a>
+        </div>
+        <div class="flex flex-col justify-between mt-12 space-y-5 lg:w-7/12 lg:space-y-0 lg:mt-0">
+            <div class="flex space-x-5">
+                <div class="w-4/12">
+                    <div class="relative">
+                        <img class="w-full rounded-xl" src="img/children-laptop.png">
+                        <span class="absolute hidden px-4 py-px text-sm font-semibold bg-yellow-300 rounded-full bottom-2 right-2 text-darken sm:block">PRESS RELEASE</span>
+                    </div>
+                </div>
+                <div class="w-8/12">
+                    <h1 class="text-sm font-semibold text-gray-800 sm:text-lg">Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h1>
+                    <p class="my-2 text-xs text-gray-500 sm:my-4 sm:text-md">Class Technologies Inc., the company that created Class,...</p>
+                </div>
+            </div>
+            <div class="flex space-x-5">
+                <div class="w-4/12">
+                    <div class="relative">
+                        <img class="w-full rounded-xl" src="img/girl-laptop.png">
+                        <span class="absolute hidden px-4 py-px text-sm font-semibold bg-yellow-300 rounded-full bottom-2 right-2 text-darken sm:block">NEWS</span>
+                    </div>
+                </div>
+                <div class="w-8/12">
+                    <h1 class="text-sm font-semibold text-gray-800 sm:text-lg">Zoom’s earliest investors are betting millions on a better Zoom for schools</h1>
+                    <p class="my-2 text-xs text-gray-500 sm:my-4 sm:text-md">Zoom was never created to be a consumer product. Nonetheless, the...</p>
+                </div>
+            </div>
+            <div class="flex space-x-5">
+                <div class="w-4/12">
+                    <div class="relative">
+                        <img class="w-full rounded-xl" src="img/cat-laptop.png">
+                        <span class="absolute hidden px-4 py-px text-sm font-semibold bg-yellow-300 rounded-full bottom-2 right-2 text-darken sm:block">NEWS</span>
+                    </div>
+                </div>
+                <div class="w-8/12">
+                    <h1 class="text-sm font-semibold text-gray-800 sm:text-lg">Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h1>
+                    <p class="my-2 text-xs text-gray-500 sm:my-4 sm:text-md">This year, investors have reaped big financial returns from betting on Zoom...</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- pricing -->
     <div class="min-h-screen py-10 lg:py-0 lg:grid place-content-center">
         <!-- Running Instance -->
