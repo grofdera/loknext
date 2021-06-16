@@ -101,73 +101,73 @@ get_header();
         <div class="holder">
             <div data-aos="fade-up" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/figma.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/figma.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Figma</p>
             </div>
             <div data-aos="fade-up" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/wordpress.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/wordpress.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Wordpress</p>
             </div>
             <div data-aos="fade-up" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/magento.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/magento.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Magento</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="100" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/laravel.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/laravel.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Laravel VueJs</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="100" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/react.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/react.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">React/ Native</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="100" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/android.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/android.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Android/ Flutter</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="150" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12 rounded-lg" src="/img/stack/facebook.svg" alt="language-icon">
+                    <img class="w-12 h-12 rounded-lg" src="<?php echo get_template_directory_uri(); ?>/img/stack/facebook.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">SEO/SMO, fb-Boost</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="150" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/docker.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/docker.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Docker</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="150" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12 bg-auto" src="/img/stack/excel.png" alt="language-icon">
+                    <img class="w-12 h-12 bg-auto" src="<?php echo get_template_directory_uri(); ?>/img/stack/excel.png" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">MS Excel</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/anaconda.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/anaconda.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Anaconda</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/r.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/r.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">SAS, Shiny</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200" class="pill">
                 <div class="p-2 bg-white border rounded-full">
-                    <img class="w-12 h-12" src="/img/stack/superset.svg" alt="language-icon">
+                    <img class="w-12 h-12" src="<?php echo get_template_directory_uri(); ?>/img/stack/superset.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Apache Superset</p>
             </div>
