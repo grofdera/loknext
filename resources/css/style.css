@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.holder {
+    @apply grid grid-cols-3 gap-6 mt-12 md:grid-cols-6 lg:grid-cols-12;
+}
+
+.pill {
+    @apply flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer;
+}
