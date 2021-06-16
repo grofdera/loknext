@@ -25,8 +25,11 @@ get_header();
             </h1>
             <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="mx-auto mb-8 text-5xl leading-normal lg:mx-0">for Online Store/Pasal</p>
             <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="items-center justify-center w-full md:flex lg:justify-start md:space-x-5">
-                <button class="py-4 text-xl font-bold text-white transition duration-300 ease-in-out transform bg-yellow-500 rounded-full lg:mx-0 px-9 focus:outline-none hover:scale-110">
-                    Request Demo
+                <button class="flex py-4 text-xl font-bold text-white transition duration-300 ease-in-out transform bg-yellow-500 rounded-full lg:mx-0 px-9 focus:outline-none hover:scale-110">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
+                        <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+                    </svg>
+                    LokBidhi App
                 </button>
                 <div class="flex items-center justify-center mt-5 space-x-3 transition duration-300 ease-in-out transform md:mt-0 focus:outline-none hover:scale-110">
                     <button class="flex items-center justify-center bg-white rounded-full w-14 h-14">
@@ -40,10 +43,10 @@ get_header();
         </div>
         <!--Right Col-->
         <div class="relative w-full lg:w-6/12 lg:bottom-12" id="girl">
-            <img data-aos="fade-up" data-aos-once="true" class="w-10/12 mx-auto 2xl:-mb-20" src="img/main.png" />
+            <img data-aos="fade-up" data-aos-once="true" class="w-10/12 mx-auto 2xl:-mb-20" src="<?php echo get_template_directory_uri(); ?>/img/main.png" />
             <!-- calendar -->
             <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" class="absolute top-32 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-0 lg:top-52 floating-4">
-                <img class="h-12 bg-white rounded-lg bg-opacity-80 sm:h-16" src="img/calendar.svg">
+                <img class="h-12 bg-white rounded-lg bg-opacity-80 sm:h-16" src="<?php echo get_template_directory_uri(); ?>/img/calendar.svg">
             </div>
             <!-- red -->
             <div data-aos="fade-up" data-aos-delay="400" data-aos-once="true" class="absolute top-20 right-10 sm:right-24 sm:top-28 md:top-36 md:right-32 lg:top-32 lg:right-16 floating">
@@ -70,15 +73,15 @@ get_header();
             </div>
             <!-- ux class -->
             <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="absolute top-2 -left-4 sm:left-2 sm:top-2 lg:top-12 lg:-left-4 floating">
-                <img class="h-20 bg-white rounded-lg bg-opacity-20 sm:h-28" src="img/chart-output.png" alt="">
+                <img class="h-20 bg-white rounded-lg bg-opacity-20 sm:h-28" src="<?php echo get_template_directory_uri(); ?>/img/chart-output.png" alt="">
             </div>
             <!-- ux class -->
             <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="absolute bottom-14 -left-4 sm:left-2 sm:bottom-20 lg:bottom-12 lg:-left-4 floating">
-                <img class="h-20 p-2 bg-white rounded-lg bg-opacity-20 sm:h-28" src="img/data-input.png" alt="">
+                <img class="h-20 p-2 bg-white rounded-lg bg-opacity-20 sm:h-28" src="<?php echo get_template_directory_uri(); ?>/img/data-input.png" alt="">
             </div>
             <!-- congrats -->
             <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true" class="absolute bottom-20 md:bottom-48 lg:bottom-52 -right-6 lg:right-8 floating-4">
-                <img class="h-12 bg-white rounded-lg bg-opacity-80 sm:h-16" src="img/congrat.svg" alt="">
+                <img class="h-12 bg-white rounded-lg bg-opacity-80 sm:h-16" src="<?php echo get_template_directory_uri(); ?>/img/congrat.svg" alt="">
             </div>
         </div>
     </div>
@@ -90,79 +93,79 @@ get_header();
     <!-- All-In-One Cloud Software. -->
     <div data-aos="flip-up" class="max-w-xl mx-auto mt-24 text-center">
         <h1 class="my-3 text-2xl font-bold text-darken">Our Most used <span class="text-yellow-500">DevOps Tech Stack.</span></h1>
-        <p class="leading-relaxed text-gray-500">Lokbidhi uses Technology to make WebApp and Data Analytics Software</p>
+        <p class="leading-relaxed text-gray-500">Lokbidhi uses these Technology to make WebApp and Data Analytics Software</p>
     </div>
 
     <!-- tech stack -->
     <div class="mx-auto max-w-7xl">
-        <div class="grid grid-cols-3 gap-6 mt-12 md:grid-cols-6 lg:grid-cols-12">
-            <div data-aos="fade-up" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+        <div class="holder">
+            <div data-aos="fade-up" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/figma.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Figma</p>
             </div>
-            <div data-aos="fade-up" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/wordpress.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Wordpress</p>
             </div>
-            <div data-aos="fade-up" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/magento.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Magento</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="100" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="100" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/laravel.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Laravel VueJs</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="100" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="100" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/react.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">React/ Native</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="100" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="100" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/android.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Android/ Flutter</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="150" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="150" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12 rounded-lg" src="/img/stack/facebook.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">SEO/SMO, fb-Boost</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="150" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="150" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/docker.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Docker</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="150" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="150" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12 bg-auto" src="/img/stack/excel.png" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">MS Excel</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="200" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/anaconda.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">Anaconda</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="200" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/r.svg" alt="language-icon">
                 </div>
                 <p class="mt-3 mb-10 text-xs font-bold">SAS, Shiny</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col items-center p-2 transition-colors duration-700 ease-in-out border rounded-full shadow-xl cursor-pointer">
+            <div data-aos="fade-up" data-aos-delay="200" class="pill">
                 <div class="p-2 bg-white border rounded-full">
                     <img class="w-12 h-12" src="/img/stack/superset.svg" alt="language-icon">
                 </div>
@@ -173,7 +176,7 @@ get_header();
     <!-- All-In-One Cloud Software. -->
     <div data-aos="flip-up" class="max-w-xl mx-auto mt-24 text-center">
         <h1 class="my-3 text-2xl font-bold text-darken">Experience our <span class="text-yellow-500">Core Services.</span></h1>
-        <p class="leading-relaxed text-gray-500">Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.</p>
+        <p class="leading-relaxed text-gray-500">LokBidhi provides great services to their clients. Explore our complete Business Technology solutions at your finger tip with online support.</p>
     </div>
     <!-- card -->
     <div class="grid mt-20 md:grid-cols-3 gap-14 md:gap-5">
@@ -184,7 +187,7 @@ get_header();
                 </svg>
             </div>
             <h1 class="mb-3 text-xl font-medium lg:px-14 text-darken">WebApp Designing</h1>
-            <p class="px-4 text-gray-500">Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and</p>
+            <p class="px-4 text-gray-500">Turn your shop to online pasal. We make Website and Mobile Apps ! We have 10+ years of experience to transform traditional business practices to online process workflow.</p>
             <button class="flex items-center pl-3 mx-auto my-4 space-x-3 font-medium text-yellow-500 transition duration-300 ease-in-out transform border-t border-b border-l border-yellow-500 rounded-full focus:outline-none hover:scale-110">
                 <span>Make your WebApp</span>
                 <div class="flex items-center justify-center border border-yellow-500 rounded-full h-14 w-14">
@@ -201,7 +204,7 @@ get_header();
                 </svg>
             </div>
             <h1 class="mb-3 text-xl font-medium lg:px-14 text-darken">Digital Marketing</h1>
-            <p class="px-4 text-gray-500">Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance</p>
+            <p class="px-4 text-gray-500">Boost your facebook page and be on top of Google search with our KhoJ Digital Marketing services. Promote your business with us.</p>
             <button class="flex items-center pl-3 mx-auto my-4 space-x-3 font-medium text-yellow-500 transition duration-300 ease-in-out transform border-t border-b border-l border-yellow-500 rounded-full focus:outline-none hover:scale-110">
                 <span>Boost your WebApp</span>
                 <div class="flex items-center justify-center border border-yellow-500 rounded-full h-14 w-14">
@@ -220,7 +223,7 @@ get_header();
                 </svg>
             </div>
             <h1 class="mb-3 text-xl font-medium lg:px-14 text-darken">Computer Training</h1>
-            <p class="px-4 text-gray-500">Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance</p>
+            <p class="px-4 text-gray-500">Work on live projects. Get Admission in computer courses with focus in practical learning. Participate in WebApp competiotion to Make Janakpur a Cyber city.</p>
             <button class="flex items-center pl-3 mx-auto my-4 space-x-3 font-medium text-yellow-500 transition duration-300 ease-in-out transform border-t border-b border-l border-yellow-500 rounded-full focus:outline-none hover:scale-110">
                 <span>Start Learning</span>
                 <div class="flex items-center justify-center border border-yellow-500 rounded-full h-14 w-14">
@@ -239,7 +242,7 @@ get_header();
                 <!--work--> as an <span class="text-yellow-500">eBusiness Technician.</span>
             </h1>
             <p class="text-gray-500">We, @Lokbidhi, have built business learning tools which prepare Interns to think ahead of Market demand. <br />A computer operator job transfered to more specialized
-                <!--enterprise operations-->problem-solver increases earning and insures future.<br /> Career plus Job Satisfaction, i.e. "Passion to Profession" .
+                <!--enterprise operations-->problem-solver increases earning and insures future.<br /> Career plus Job Satisfaction, i.e. "Passion to Profession" . Interns can work on these sectors :
             </p>
         </div>
         <div data-aos="fade-up" class="flex flex-col justify-center space-y-5 md:flex-row md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
@@ -248,7 +251,7 @@ get_header();
                 <div class="px-6 py-8 bg-white rounded hover:bg-purple-lightest hover:shadow-lg">
                     <img src="https://dd7tel2830j4w.cloudfront.net/f1517340466449x405448712874203900/crm%20data%20management%20icon.svg">
                     <h3 class="mt-2 text-base font-semibold uppercase">CRM / Data Management</h3>
-                    <p class="mt-2 font-light">Connecting buyers and sellers in the sharing economy</p>
+                    <p class="mt-2 font-light">Data is blood of new economy. Work as Data management executive in leading Industry.</p>
 
                 </div>
             </div>
@@ -256,14 +259,14 @@ get_header();
                 <div class="px-6 py-8 bg-white rounded hover:bg-purple-lightest hover:shadow-lg">
                     <img src="https://dd7tel2830j4w.cloudfront.net/f1517340521892x235520337941125020/martketplace%20icon.svg">
                     <h3 class="mt-2 text-base font-semibold uppercase">Marketplace</h3>
-                    <p class="mt-2 font-light">Connecting buyers and sellers in the sharing economy</p>
+                    <p class="mt-2 font-light">Online ecommerce service is growing exponentially shaping Market to new heights. Work as a digital marketer.</p>
                 </div>
             </div>
             <div data-aos="fade-up" data-aos-delay="150" class="w-full px-2 md:w-1/4">
                 <div class="px-6 py-8 bg-white rounded hover:bg-purple-lightest hover:shadow-lg">
                     <img src="https://dd7tel2830j4w.cloudfront.net/f1517340502155x805167454527691000/social%20network%20icon.svg">
                     <h3 class="mt-2 text-base font-semibold uppercase">Social Network</h3>
-                    <p class="mt-2 font-light">Connecting buyers and sellers in the sharing economy</p>
+                    <p class="mt-2 font-light">Social netowrk is new place where people meets online. Understand how Behavioral Marketing works to build a brand.</p>
 
                 </div>
             </div>
@@ -271,7 +274,7 @@ get_header();
                 <div class="px-6 py-8 bg-white rounded hover:bg-purple-lightest hover:shadow-lg">
                     <img src="https://dd7tel2830j4w.cloudfront.net/f1517340446730x226106988731771700/data%20visualization%20icon.svg">
                     <h3 class="mt-2 text-base font-semibold uppercase">Data Visualisation</h3>
-                    <p class="mt-2 font-light">Connecting buyers and sellers in the sharing economy</p>
+                    <p class="mt-2 font-light">Working on MS Excel but there are new technologies to get better insight from data visualization. Visualize Management Information System for optimal decision making. </p>
 
                 </div>
             </div>
@@ -283,7 +286,7 @@ get_header();
     <!-- Hire an eBusiness Technician -->
     <div class="flex flex-col items-start mt-24 md:flex-row md:space-x-10">
         <div data-aos="zoom-in-right" class="md:w-6/12">
-            <img class="mx-auto md:w-8/12" src="img/experts.svg">
+            <img class="mx-auto md:w-8/12" src="<?php echo get_template_directory_uri(); ?>/img/experts.svg">
         </div>
         <div data-aos="zoom-in-left" class="md:w-6/12">
             <div class="flex items-center mb-5 space-x-20">
@@ -291,24 +294,10 @@ get_header();
                 <h1 class="text-sm tracking-widest text-gray-400">Lost in between ?</h1>
             </div>
             <h1 class="text-2xl font-semibold text-darken lg:pr-40"><span class="text-yellow-500">Need Help ?</span> Hire Expert eBusiness Technicians</h1>
-            <p class="my-5 text-gray-500 lg:pr-20">Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.</p>
+            <p class="my-5 text-gray-500 lg:pr-20">Hire a expert from Lokbidhi team to get your work done.</p>
             <button class="px-5 py-3 my-4 font-medium text-yellow-500 transition duration-300 ease-in-out transform border border-yellow-500 rounded-full focus:outline-none hover:scale-110">Hire an Expert</button>
         </div>
     </div>
-
-    <!-- trusted by -->
-    <div class="max-w-4xl mx-auto">
-        <h1 class="mb-3 font-medium text-center text-gray-400">Companies who hired our eBusiness Technicains Team</h1>
-        <div class="grid grid-cols-3 gap-4 lg:grid-cols-6 justify-items-center">
-            <img class="h-7" src="img/company/google.svg">
-            <img class="h-7" src="img/company/netflix.svg">
-            <img class="h-7" src="img/company/airbnb.svg">
-            <img class="transform translate-y-2 h-7" src="img/company/amazon.svg">
-            <img class="h-7" src="img/company/facebook.svg">
-            <img class="h-7" src="img/company/grab.svg">
-        </div>
-    </div>
-
 
     <section class="mt-4 border-2 border-yellow-500">
         <div class="container grid grid-cols-2 gap-8 py-8 mx-auto text-center md:grid-cols-4">
@@ -364,26 +353,26 @@ get_header();
         <div data-aos="zoom-in-up" class="items-center justify-center lg:flex lg:gap-10">
             <div class="flex-grow max-w-xs px-10 py-12 mx-auto bg-white border-t-8 border-blue-400 rounded-lg shadow-lg lg:mx-0">
                 <div>
-                    <h2 class="text-2xl font-semibold text-gray-900">Press</h2>
-                    <p class="text-gray-400 mt-2.5 text-lg">Are you interested in our latest news or working on a Doe story and need to get in touch?</p>
-                    <button class="border border-blue-400 text-blue-400 pt-1 pb-1.5 w-full shadow-sm rounded-full inline mt-16 tracking-wider capitalize">visit press page</button>
+                    <h2 class="text-2xl font-semibold text-gray-900">FonePasal</h2>
+                    <p class="text-gray-400 mt-2.5 text-lg">Buy, Sell, Exchange new and old Mobile Phones, electronics and gadgets.</p>
+                    <button class="border border-blue-400 text-blue-400 pt-1 pb-1.5 w-full shadow-sm rounded-full inline mt-16 tracking-wider capitalize">FonePasal.com</button>
                 </div>
             </div>
 
             <div data-aos="zoom-in-up" class="flex-grow max-w-xs px-10 pt-16 pb-10 mx-auto my-5 bg-white border-t-8 border-green-400 rounded-lg shadow-lg lg:my-0 lg:mx-0">
                 <div>
-                    <h2 class="text-2xl font-semibold text-gray-900 capitalize">help & Support</h2>
-                    <p class="text-gray-400 mt-2.5 text-lg">Our support team is spread across the globe to give you answers fast.</p>
-                    <button class="border border-green-400 text-white bg-green-400 pt-1 pb-1.5 w-full shadow-sm rounded-full inline tracking-wider capitalize mt-24">visit support page</button>
-                    <button class="text-green-400 w-full inline mt-3.5 tracking-wider uppercase text-xs">submit a request</button>
+                    <h2 class="text-2xl font-semibold text-gray-900 capitalize">CakePasal</h2>
+                    <p class="text-gray-400 mt-2.5 text-lg">Get Gulyo Cake on your Birthday for free* when you like our facebook page and share posts.</p>
+                    <button class="border border-green-400 text-white bg-green-400 pt-1 pb-1.5 w-full shadow-sm rounded-full inline tracking-wider capitalize mt-24">CakePasal.com</button>
+                    <button class="text-green-400 w-full inline mt-3.5 tracking-wider uppercase text-xs">*Affiliate Marketing Program, T&C apply.</button>
                 </div>
             </div>
 
             <div data-aos="zoom-in-up" class="flex-grow max-w-xs px-10 py-12 mx-auto bg-white border-t-8 border-indigo-400 rounded-lg shadow-lg lg:mx-0">
                 <div>
-                    <h2 class="text-2xl font-semibold text-gray-900">Sales</h2>
-                    <p class="text-gray-400 mt-2.5 text-lg">Get in touch with our sales team to see how we can work together.</p>
-                    <button class="border border-indigo-400 text-indigo-400 pt-1 pb-1.5 w-full shadow-sm rounded-full inline mt-24 tracking-wider capitalize">contact sales</button>
+                    <h2 class="text-2xl font-semibold text-gray-900">BookPasal</h2>
+                    <p class="text-gray-400 mt-2.5 text-lg">Buy books, download e-learning materials like videos, case study, exam help and example workbook.</p>
+                    <button class="border border-indigo-400 text-indigo-400 pt-1 pb-1.5 w-full shadow-sm rounded-full inline mt-24 tracking-wider capitalize">BookPasal.com</button>
                 </div>
             </div>
         </div>
