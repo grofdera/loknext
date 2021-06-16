@@ -49,6 +49,40 @@
 				background-position: bottom -6vw left -10px, 0 0;
 			}
 		}
+
+		/* counting number */
+		@property --num {
+			syntax: "<integer>";
+			initial-value: 0;
+			inherits: false;
+		}
+
+		.customers,
+		.contracts,
+		.members,
+		.projects {
+			animation: counter 5s infinite alternate ease-in-out;
+			counter-reset: num var(--num);
+			font: 800 40px system-ui;
+			padding: 2rem;
+		}
+
+		.customers::before,
+		.contracts::before,
+		.members::before,
+		.projects::before {
+			content: counter(num);
+		}
+
+		@keyframes counter {
+			from {
+				--num: 0;
+			}
+
+			to {
+				--num: 100;
+			}
+		}
 	</style>
 	<?php wp_head(); ?>
 </head>
@@ -95,7 +129,8 @@
 					<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
 					</svg>
-				</button><!--link page   Need help? Hire eBusiness Technician -->
+				</button>
+				<!--link page   Need help? Hire eBusiness Technician -->
 			</div>
 		</div>
 		<nav id="site-navigation" class="items-center w-full md:hidden main-navigation" style="background-color: rgba(37, 38, 65, 1);">
