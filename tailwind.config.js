@@ -1,12 +1,15 @@
 module.exports = {
-    darkMode: 'class',
+    //darkMode: 'class',
     purge: [
         './*.php',
-        './**/*.php'
+        './blocks/*.php',
+        './template-parts/*.php'
     ],
     theme: {
         extend: {}
     },
     variants: {},
-    plugins: []
+    plugins: [
+        require('@tailwindcss/typography')
+    ]
 }

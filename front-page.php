@@ -16,7 +16,7 @@
 get_header();
 ?>
 <!-- front -->
-<div class="bg-darken" style="background-color: rgba(37, 38, 65, 1);">
+<div class="overflow-hidden" style="background-color: rgba(37, 38, 65, 1);">
     <div class="flex flex-col items-start max-w-screen-xl px-8 mx-auto lg:flex-row">
         <!--Left Col-->
         <div class="flex flex-col items-start justify-center w-full mb-5 text-center lg:w-6/12 lg:pt-24 lg:text-left md:mb-0">
@@ -86,7 +86,7 @@ get_header();
             </div>
         </div>
     </div>
-    <div data-aos="fade-up" data-aos-delay="400" data-aos-once="true" class="text-white floating aos-init aos-animate">
+    <div data-aos="fade-up" data-aos-delay="400" data-aos-once="true" class="h-48 text-white floating aos-init aos-animate">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-24 h-24 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
         </svg>
@@ -390,5 +390,4 @@ get_header();
 </div>
 <!-- .container -->
 <?php
-get_sidebar();
 get_footer();

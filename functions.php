@@ -9,7 +9,7 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.1' );
+	define( '_S_VERSION', '1.1.0' );
 }
 
 if ( ! function_exists( 'loknext_setup' ) ) :
@@ -126,11 +126,7 @@ function loknext_widgets_init() {
 		array(
 			'name'          => esc_html__( 'Sidebar', 'loknext' ),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'loknext' ),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
+			'description'   => esc_html__( 'Add widgets here.', 'loknext' )
 		)
 	);
 }
@@ -145,7 +141,7 @@ function loknext_scripts() {
 	wp_enqueue_style('app', tailpress_get_mix_compiled_asset_url('css/app.css'), array(), $theme->get('Version'));
 	//wp_enqueue_style('animate', get_template_directory_uri() . '/css/aos.css', array(), _S_VERSION, true );
 	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-	wp_enqueue_script('appjs', get_template_directory_uri() . '/js/app.js', array(), _S_VERSION, true);
+	//wp_enqueue_script('appjs', get_template_directory_uri() . '/js/app.js', array(), _S_VERSION, true);
 	wp_enqueue_script('animation', get_template_directory_uri() . '/js/animate.js', array(), _S_VERSION, true);
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -221,3 +217,31 @@ function tailpress_get_mix_compiled_asset_url($path)
 
 	return $stylesheet_dir_uri . $asset_path;
 }
+// disable rest api https://wordpress.stackexchange.com/questions/228585/hiding-wordpress-rest-api-v2-endpoints-from-public-viewing
+function restrict_rest_api_to_localhost()
+{
+
+	$whitelist = ['129.0.0.1', "::1"];
+
+	if (!in_array($_SERVER['REMOTE_ADDR'], $whitelist)) {
+		die('REST API is disabled.');
+	}
+}
+
+add_action('rest_api_init', 'restrict_rest_api_to_localhost', 0);
+add_filter('rest_url_prefix', function () {
+	return 'apikey12345';
+});
+
+function wpb_disable_feed()
+{
+	wp_die(__('No feed available,please visit our <a href="' . get_bloginfo('url') . '">homepage</a>!'));
+}
+
+add_action('do_feed', 'wpb_disable_feed', 1);
+add_action('do_feed_rdf', 'wpb_disable_feed', 1);
+add_action('do_feed_rss', 'wpb_disable_feed', 1);
+add_action('do_feed_rss2', 'wpb_disable_feed', 1);
+add_action('do_feed_atom', 'wpb_disable_feed', 1);
+add_action('do_feed_rss2_comments', 'wpb_disable_feed', 1);
+add_action('do_feed_atom_comments', 'wpb_disable_feed', 1);

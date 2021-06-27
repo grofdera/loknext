@@ -19,13 +19,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
+	<style>
+		.topbox {
+			background: linear-gradient(to bottom,#252641,#4b5563);
+		}
+		</style>
 </head>
 
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
 	<div id="page" class="bg-gray-100 site">
-		<div class="flex items-center justify-between w-full h-16 px-4 mx-auto overflow-hidden lg:px-8" style="background-color: rgba(37, 38, 65, 1);">
-			<div class="flex items-center flex-shrink-0">
+		<div class="flex items-center justify-between w-full h-16 px-4 mx-auto overflow-hidden lg:px-32" style="background-color: rgba(37, 38, 65, 1);">
+			<div class="flex items-center flex-shrink-0 right-4">
 				<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="#6875f5" viewBox="0 0 24 24" stroke="#ffffff">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z" />
 				</svg>
