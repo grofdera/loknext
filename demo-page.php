@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Template Name: FAQ page
- *
- * The template for displaying all pages
+ * Template Name: Demo page
+ * Template Post Type: post, page, product
+ * 
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -19,14 +19,12 @@ get_header();
 ?>
 
 <main id="primary" class="container mx-auto max-w-7xl">
-    <div class="px-4 py-20 bg-lightblue">
-        <div class="flex flex-col max-w-6xl mx-auto md:flex-row">
-            <h2 class="w-full mr-8 text-3xl font-extrabold leading-9 md:w-1/3">
-                <?php the_title(); ?>
-            </h2>
-            <?php the_content(); ?>
-        </div>
+    <!-- Latest News and Resources -->
+    <div data-aos="zoom-in" class="mt-16 text-center">
+        <h1 class="text-2xl font-semibold text-darken"><?php the_title(); ?></h1>
+        <p class="my-5 text-gray-500"><?php the_excerpt(); ?></p>
     </div>
+    <?php the_content(); ?>
 
 </main><!-- #main -->
 

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying comments
  *
@@ -15,32 +16,44 @@
  * the visitor has not yet entered the password we will
  * return early without loading the comments.
  */
-if ( post_password_required() ) {
+if (post_password_required()) {
 	return;
 }
 ?>
 
-<div id="comments" class="comments-area">
-
+<div id="comments" class="container max-w-screen-xl mx-auto mt-8 comments-area">
+	<!-- component -->
+	<div class="flex items-center justify-center bg-gray-100">
+		<div class="px-20 mx-auto containter">
+			<div class="relative p-8 transition duration-500 bg-white rounded-lg shadow-lg hover:shadow-2xl">
+				<h1 class="mb-3 text-2xl font-semibold text-gray-800">Newest Features Integrated</h1>
+				<p class="leading-6 tracking-normal text-gray-600">Show comments here as features -- consectetur adipisicing elit. Beatae itaque debitis saepe, eaque similique quo doloribus ducimus ex veniam accusamus aliquid esse, veritatis totam quia impedit tempore aperiam, doloremque eius.</p>
+				<button class="px-4 py-2 mt-8 text-white bg-indigo-600 rounded-md shadow-xl">Learn More</button>
+				<div>
+					<span class="absolute top-0 right-0 px-8 py-2 text-sm text-white transform translate-x-2 -translate-y-3 bg-indigo-600 rounded-md shadow-xl">Features</span>
+				</div>
+			</div>
+		</div>
+	</div>
 	<?php
 	// You can start editing here -- including this comment!
-	if ( have_comments() ) :
-		?>
+	if (have_comments()) :
+	?>
 		<h2 class="comments-title">
 			<?php
 			$loknext_comment_count = get_comments_number();
-			if ( '1' === $loknext_comment_count ) {
+			if ('1' === $loknext_comment_count) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'loknext' ),
-					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
+					esc_html__('One thought on &ldquo;%1$s&rdquo;', 'loknext'),
+					'<span>' . wp_kses_post(get_the_title()) . '</span>'
 				);
 			} else {
-				printf( 
+				printf(
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $loknext_comment_count, 'comments title', 'loknext' ) ),
-					number_format_i18n( $loknext_comment_count ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
+					esc_html(_nx('%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $loknext_comment_count, 'comments title', 'loknext')),
+					number_format_i18n($loknext_comment_count), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+					'<span>' . wp_kses_post(get_the_title()) . '</span>'
 				);
 			}
 			?>
@@ -63,10 +76,10 @@ if ( post_password_required() ) {
 		the_comments_navigation();
 
 		// If comments are closed and there are comments, let's leave a little note, shall we?
-		if ( ! comments_open() ) :
-			?>
-			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'loknext' ); ?></p>
-			<?php
+		if (!comments_open()) :
+		?>
+			<p class="no-comments"><?php esc_html_e('Comments are closed.', 'loknext'); ?></p>
+	<?php
 		endif;
 
 	endif; // Check for have_comments().

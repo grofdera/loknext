@@ -25,20 +25,20 @@ get_header();
             </h1>
             <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="mx-auto mb-8 text-5xl leading-normal text-white lg:mx-0">for Online Store/Pasal</p>
             <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="items-center justify-center w-full md:flex lg:justify-start md:space-x-5">
-                <button class="flex py-4 text-xl font-bold text-white transition duration-300 ease-in-out transform bg-yellow-500 rounded-full lg:mx-0 px-9 focus:outline-none hover:scale-110">
+                <a href="/system" class="flex py-4 text-xl font-bold text-white transition duration-300 ease-in-out transform bg-yellow-500 rounded-full lg:mx-0 px-9 focus:outline-none hover:scale-110">
 
-                    Request Demo
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6 ml-1" viewBox="0 0 512 512">
-                        <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+                    Lokbidhi Systems
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
                     </svg>
-                </button>
+                </a>
                 <div class="flex items-center justify-center mt-5 space-x-3 transition duration-300 ease-in-out transform md:mt-0 focus:outline-none hover:scale-110">
-                    <button class="flex items-center justify-center bg-white rounded-full w-14 h-14">
-                        <svg class="w-5 h-5 ml-2" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M22.5751 12.8097C23.2212 13.1983 23.2212 14.135 22.5751 14.5236L1.51538 27.1891C0.848878 27.5899 5.91205e-07 27.1099 6.25202e-07 26.3321L1.73245e-06 1.00123C1.76645e-06 0.223477 0.848877 -0.256572 1.51538 0.14427L22.5751 12.8097Z" fill="#23BDEE" />
+                    <a href="tel:+9779809692950" class="flex items-center justify-center bg-white rounded-full w-14 h-14">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 ml-2 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
-                    </button>
-                    <span class="text-white cursor-pointer">Watch DemoPasal examples</span>
+                    </a>
+                    <a href="tel:+9779809692950" class="text-white cursor-pointer">Call Support Desk</a>
                 </div>
             </div>
         </div>
@@ -183,7 +183,7 @@ get_header();
             </div>
         </div>
     </div>
-    <!-- All-In-One Cloud Software. -->
+    <!-- Lokbidhi Core services -->
     <div data-aos="flip-up" class="max-w-xl mx-auto mt-24 text-center">
         <h1 class="my-3 text-2xl font-bold text-darken">Experience our <span class="text-yellow-500">Core Services.</span></h1>
         <p class="leading-relaxed text-gray-500">LokBidhi provides great services to their clients. Explore our complete Business Technology solutions at your finger tip with online support.</p>

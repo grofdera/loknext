@@ -1,0 +1,102 @@
+{
+"articles": [
+{
+"id": 1,
+"slug": "lokbidhi-lab",
+"name": "Lokbidhi",
+"category": "articles",
+"author": "Manish",
+"title": "Test Title - Lokbidhi Cyberlab",
+"content": "hi this is test",
+"url": "https://lokbidhi.com/https://lokbidhi.com",
+"urlToImage": "https://www.lokbidhi.com/wp-content/themes/loknext/img/main.png",
+"publishedAt": "2021-06-21 18:53:33",
+"created_at": "2021-06-23T23:26:03.000000Z",
+"updated_at": "2021-06-23T23:26:03.000000Z"
+},
+{
+"id": 2,
+"slug": "lokbidhi-lab",
+"name": "manish",
+"category": "articles",
+"author": "Manish",
+"title": "asdasd - Lokbidhi Cyberlab",
+"content": "hi this is test",
+"url": "https://lokbidhi.com/https://lokbidhi.com",
+"urlToImage": "https://www.lokbidhi.com/wp-content/themes/loknext/img/main.png",
+"publishedAt": "2021-06-21 18:53:33",
+"created_at": "2021-06-23T23:40:20.000000Z",
+"updated_at": "2021-06-23T23:40:20.000000Z"
+},
+{
+"id": 3,
+"slug": "lokbidhi-lab",
+"name": "mahesh",
+"category": "articles",
+"author": "Manish",
+"title": "Test Title - Lokbidhi Cyberlab",
+"content": "hi this is test",
+"url": "https://lokbidhi.com/https://lokbidhi.com",
+"urlToImage": "https://www.lokbidhi.com/wp-content/themes/loknext/img/main.png",
+"publishedAt": "2021-06-21 18:53:33",
+"created_at": "2021-06-23T23:40:38.000000Z",
+"updated_at": "2021-06-23T23:40:38.000000Z"
+},
+{
+"id": 4,
+"slug": "lokbidhi-lab",
+"name": "mahesh",
+"category": "articles",
+"author": "Manish",
+"title": "asdasd - Lokbidhi Cyberlab",
+"content": "hi this is test",
+"url": "https://lokbidhi.com/https://lokbidhi.com",
+"urlToImage": "https://www.lokbidhi.com/wp-content/themes/loknext/img/main.png",
+"publishedAt": "2021-06-21 18:53:33",
+"created_at": "2021-06-23T23:40:53.000000Z",
+"updated_at": "2021-06-23T23:40:53.000000Z"
+},
+{
+"id": 5,
+"slug": "lokbidhi-lab",
+"name": "manish",
+"category": "articles",
+"author": "Manish",
+"title": "asdasd - Lokbidhi Cyberlab",
+"content": "hi this is test",
+"url": "https://lokbidhi.com/https://lokbidhi.com",
+"urlToImage": "https://www.lokbidhi.com/wp-content/themes/loknext/img/main.png",
+"publishedAt": "2021-06-21 18:53:33",
+"created_at": "2021-06-23T23:41:12.000000Z",
+"updated_at": "2021-06-23T23:41:12.000000Z"
+},
+{
+"id": 6,
+"slug": "lokbidhi-lab",
+"name": "manish",
+"category": "articles",
+"author": "Manish",
+"title": "asdasd - Lokbidhi Cyberlab",
+"content": "hi this is test",
+"url": "https://lokbidhi.com/https://lokbidhi.com",
+"urlToImage": "https://www.lokbidhi.com/wp-content/themes/loknext/img/main.png",
+"publishedAt": "2021-06-21 18:53:33",
+"created_at": "2021-06-23T23:41:26.000000Z",
+"updated_at": "2021-06-23T23:41:26.000000Z"
+},
+{
+"id": 7,
+"slug": "lokbidhi-lab",
+"name": "manish",
+"category": "articles",
+"author": "Manish",
+"title": "asdasd - Lokbidhi Cyberlab",
+"content": "hi this is test",
+"url": "https://lokbidhi.com/https://lokbidhi.com",
+"urlToImage": "https://www.lokbidhi.com/wp-content/themes/loknext/img/main.png",
+"publishedAt": "2021-06-21 18:53:33",
+"created_at": "2021-06-23T23:41:39.000000Z",
+"updated_at": "2021-06-23T23:41:39.000000Z"
+}
+]
+}

@@ -177,6 +177,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 /**Manish codes from here */
+/** add excerpt */
+add_post_type_support('page', 'excerpt');
 /** search form to nav menu */
 add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);
 function add_search_form($items, $args)
@@ -221,7 +223,7 @@ function tailpress_get_mix_compiled_asset_url($path)
 function restrict_rest_api_to_localhost()
 {
 
-	$whitelist = ['129.0.0.1', "::1"];
+	$whitelist = ['127.0.0.1', "::1"];
 
 	if (!in_array($_SERVER['REMOTE_ADDR'], $whitelist)) {
 		die('REST API is disabled.');
